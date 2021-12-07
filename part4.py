@@ -23,4 +23,17 @@ Enter another number:  -2
 opposite
 '''
 
-#start writing your code below
+waffle = int(input("Enter a number: "))
+pancake = int(input("Enter another number: "))
+
+if waffle > 0 and pancake > 0:
+  print("positive")
+
+elif waffle < 0 and pancake < 0:
+  print("negative")
+
+elif waffle == 0 or waffle == 0:
+  print("zero")
+
+else:
+  print("opposite")
