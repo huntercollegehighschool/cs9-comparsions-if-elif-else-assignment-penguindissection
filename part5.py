@@ -22,4 +22,16 @@ Enter a month:  Saturday
 not a month
 '''
 
-#start writing your code below
+anarchy = str.lower(input("Enter a month: "))
+
+if anarchy == "january" or anarchy == "march" or anarchy == "may" or anarchy == "july" or anarchy == "august" or anarchy == "october" or anarchy == "december":
+  print("31")
+
+elif anarchy == "april" or anarchy == "june" or anarchy == "september" or anarchy == "november":
+  print("30")
+
+elif anarchy == "february":
+  print("28 or 29")
+
+else:
+  print("not a month")
